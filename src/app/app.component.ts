@@ -6,5 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-app';
+  title = 'Appointment';
+
+  headers = ["ID","Name"]
+
+  rows = [
+    {
+      "ID":"1",
+      "Name":"Ruthvik"
+    },
+    
+    {
+      "ID":"2",
+      "Name":"Zoro"
+    },
+    
+    {
+      "ID":"3",
+      "Name":"Luffy"
+    },
+    
+    {
+      "ID":"4",
+      "Name":"Sanji"
+    }
+  ]
 }
